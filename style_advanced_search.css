@@ -1,0 +1,130 @@
+#header{
+    position: relative;
+    height: 200px;
+    margin-bottom: 50px;
+    color: #F5EDED;
+    background-color: #6482AD;
+    border-bottom: 4px solid  #F5EDED;
+}
+
+#google-logo{
+    margin: 20px 80px;
+}
+
+#eye-image{
+    margin-left: 1250px;
+    margin-top: -170px;
+}
+
+#tree-image{
+    margin-left: 830px;
+    margin-top: -255px;
+}
+
+#page-title{
+    width: 500px;
+    padding: 15px 0;
+    margin-left: 200px ;
+    font-family: 'Times New Roman', serif;
+    text-transform: uppercase;
+    text-decoration: overline;
+    text-decoration-color: #E2DAD6;
+    text-shadow: 2px 2px;
+}
+
+#links{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 500px;
+    padding: 20px;
+    text-align: right;
+    font-size: 22px;
+    display: inline-block;
+}
+
+.link-search:link, .link-search:visited{
+    padding: 12px;
+    margin: 5px;
+    border-radius: 15px;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 2px solid #F5EDED;
+}
+
+.link-search:hover, .link-search:active {
+    background-color: #f5eded89;
+    color: #6482AD;
+}
+
+.input-parameters-search[type=text] {
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 10px;
+    background-color: #F5EDED;
+    border: 3px solid #7fa1c349;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.input-parameters-search[type=text]:focus {
+    border: 3px solid #7FA1C3 ;
+}
+
+#center_input{
+    margin-top: 6px;
+}
+
+.row{    
+    margin: 10px 0;
+    vertical-align: middle;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.col-lg-2, .col-lg-3{
+    border-radius: 10px;
+    margin: 0 30px;
+    text-align: center;
+    background-color: #7FA1C3;
+    border: 3px solid #F5EDED;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.table_header{
+    border: 3px solid  #3072b4;
+    font-family: 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#text_center{
+    padding-top: 13px;
+}
+
+form{
+    position: relative;
+}
+
+.button{
+    position: absolute;
+    right: 270px;
+    bottom: -100px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #7FA1C3;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+.button1 {
+    border-radius: 12px;
+}
+
+button:hover { 
+    background-color: #7FA1C3; 
+    color: white;
+}
